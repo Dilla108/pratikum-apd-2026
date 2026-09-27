@@ -5,6 +5,7 @@ merchandise_4 = 75000
 merchandise_5 = 90000
 merchandise_6 = 120000
 
+#List merchandise
 merchandise = [merchandise_1, merchandise_2, merchandise_3, merchandise_4, merchandise_5, merchandise_6]
 
 total_harga = merchandise[0] + merchandise[1] + merchandise[2] + merchandise[3] + merchandise[4] + merchandise[5] + 7500
@@ -18,8 +19,8 @@ kurs_usd = 17835
 total_harga_usd = total_harga / kurs_usd
 
 barang_2_sampai_4 = merchandise[-5:-2]
-print("merchandise 1: Rp" , merchandise_1)
 
+print("merchandise 1: Rp" , merchandise_1)
 print("merchandise 2: Rp" , merchandise_2)
 print("merchandise 3: Rp" , merchandise_3)
 print("merchandise 4: Rp" , merchandise_4)
