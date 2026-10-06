@@ -1,6 +1,12 @@
 nama = "dila"
 nim = "093"
 n = 3
+
+uang_bulanan = 2500000
+pengeluaran = 0
+ulang = "y"                 
+pilih = "t" 
+
 while n > 0:
     Nama = str(input("Masukkan Nama: ")).lower()
     Nim = str(input("Masukkan Nim: "))
@@ -15,10 +21,6 @@ while n > 0:
     elif Nama != nama or Nim != nim:
         print(f"Login gagal, sisa percobaan anda: {n}")
 
-uang_bulanan = 2500000
-pengeluaran = 0
-ulang = "y"                 
-pilih = "t" 
 
 while True:
     print("\nMenu:")
